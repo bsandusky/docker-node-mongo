@@ -3,7 +3,7 @@ version: '2'
 services:
 
   app:
-    image: bsandusky/ppthtml:0.1
+    image: bsandusky/devenv:0.1
     container_name: app
     environment:
       - MONGO_URI=mongodb://mongodb/test
